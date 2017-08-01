@@ -1,0 +1,29 @@
+.directory {
+  background-color: white;
+  font-weight: lighter;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+header{
+  flex-basis: 100%;
+}
+.object h1{
+  text-transform: capitalize;
+}
+
+section{
+  flex-grow: 5;
+  height: 80%;
+}
